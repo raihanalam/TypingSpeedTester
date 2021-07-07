@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+small{
+    text-align: center;
+    color: gray;
+    margin: 5px;
+}
+.header{
+    text-align: center;
+    padding: 10px;
+    border-bottom:2px solid black;
+    margin-bottom: 10px;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.text-box{
+    height: auto;
+    width: 400px;
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+#input-field{
+    height: 150px;
+    width: 400px;
+    resize: none;
+    font-size: 18px;
+    border: 2px solid black
+}
+.counter-box{
+    display: flex;
+    margin-top: 30px;
+}
+.counter-box p{
+    font-size: 20px;
+    color:green;
+}
+.counter-box #result{
+    color: red;
+    font-size: 20px;
+}
+.app button{
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: 15px;
+}
+.app button:hover{
+    background-color: black;
+    color: white;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    border-top:1px solid black;
+    margin-top: 40px;
+}
