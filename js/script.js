@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded',getData);
 
 let textData;
 function getData(){
-    fetch('http://api.icndb.com/jokes/random')
+    fetch('https://api.chucknorris.io/jokes/random')
     
     //Here all function are using Arrow function for simplacity
     .then(res => res.json())
     .then(data => {
-        textData = (data.value.joke).replace(/Chuck Norris/g, "Raihan Alam");
+        textData = (data.value).replace(/Chuck Norris/g, "Raihan Alam");
         document.querySelector('.text-box').innerHTML = textData;
     })
     .catch(err => {console.log(err);})
